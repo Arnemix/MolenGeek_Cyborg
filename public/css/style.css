@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(31, 33, 34);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Games', sans-serif;
+    & button {
+        font-family: 'Games', sans-serif;
+    }
+}
+
+header {
+    padding-top: 30px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    & img {
+        width: auto;
+        height: 10%;
+    }
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.profil-icon {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+nav {
+    & ul {
+        display: flex;
+        gap: 15px;
+    }
+    & li {
+        margin: 20px;
+        list-style: none;
+        font-size: large;
+    }
+    & a {
+        text-decoration: none;
+        font-size: x-large;
+        color: rgb(102, 102, 102);
+        &:hover {
+            color: rosybrown;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+
+main {
+    display: inline-block;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 3%;
+    padding: 2%;
+    background-color: rgb(39, 41, 42);
+    & li {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section:not(:first-of-type) {
+    border-radius: 3%;
+    padding: 5%;
+    background-color: rgb(31, 33, 34);
+}
+
+.browse-section {
+    position: relative;
+    text-align: center;
+}
+
+.over-img {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+}
+
+.section-button {
+    background-color: rgb(231, 94, 140);
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+    font-size: large;
+    &:hover {
+        background-color: rgb(189, 76, 110);
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgb(231, 94, 140);
+        transition: 0.5s;
+        border-radius: 40px;
+    }
+}
+
+.most-popular-section {
+    text-align: center;
+    & table {
+        display: inline-block;
+        border-spacing: 10px;
+        border-collapse: separate;
+        padding-bottom: 20px;
+    }
+    & td {
+        padding: 20px;
+        background-color: rgb(39, 41, 42);
+        border-radius: 30px;
+    }
+
+    & img {
+        border-radius: 15%;
+    }
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.color-rose {
+    color: rgb(231, 94, 140);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.section-gaming-librairy-download-button {
+    margin-top: 25%;
+    border: 1px solid rgb(134, 224, 157);
+    background-color: rgb(31, 33, 34);
+    color: rgb(134, 224, 157);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    &:hover {
+        background-color: rgb(54, 129, 71);
+        color: rgb(31, 33, 34);
+        cursor: pointer;
+        color: white;
+        box-shadow: 0 0 10px rgb(134, 224, 157);
+        transition: 0.5s;        
+    }
+}
+
+h1 {
+    text-align: start;
+}
+
+.section-gaming-librairy {
+    text-align: center;
+    & li {
+        margin-bottom: 30px;
+        border-bottom: 3px solid rgb(39, 41, 42);
+    }
+    & img {
+        height: 100px;
+        border-radius: 25%;
+        margin-bottom: 20px;
+    }
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.div-profil {
+    border-radius: 20px;
+    background-color: rgb(39, 41, 42);
+}
+
+footer {
+    padding: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.copyrights {
+    font-size: x-large;
+    text-align: center;
+}
+
+.game-preview-type {
+    text-align: start;
+    color: rgb(98,98,98);
+}
